@@ -1,5 +1,2 @@
 #!/usr/bin/env ruby
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
-display_board(board)
