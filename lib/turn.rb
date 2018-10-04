@@ -15,6 +15,7 @@ def valid_move?(array, index)
     true
   else
     false
+  end
 end
 
 def position_taken?(array, index)
