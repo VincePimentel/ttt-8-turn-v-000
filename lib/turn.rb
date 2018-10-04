@@ -26,6 +26,8 @@ def position_taken?(array, index)
   end
 end
 
+def move
+end
 
 def turn(board)
   puts "Please enter 1-9:"
