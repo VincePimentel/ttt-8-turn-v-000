@@ -45,6 +45,6 @@ def turn(array)
 
     turn(array)
   else
-    turn(array, index)
+    turn(array)
   end
 end
