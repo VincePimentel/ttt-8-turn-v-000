@@ -11,6 +11,10 @@ def input_to_index(index)
 end
 
 def valid_move?(array, index)
+  if position_taken == false && index.between?(0, 8) == true
+    true
+  else
+    false
 end
 
 def position_taken?(array, index)
