@@ -26,7 +26,9 @@ def position_taken?(array, index)
   end
 end
 
-def move
+def move(array, index, character)
+  array[index] = character
+  return array
 end
 
 def turn(board)
