@@ -43,7 +43,7 @@ def turn(array)
 
     display_board(array)
 
-    turn(board)
+    turn(array)
   else
     turn(array, index)
   end
