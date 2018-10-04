@@ -13,6 +13,13 @@ end
 def valid_move?(array, index)
 end
 
+def position_taken?(array, index)
+  if array[index] == " " || array[index] == "" || array[index] == nil
+    false
+  else
+    true
+end
+
 
 def turn(board)
   puts "Please enter 1-9:"
