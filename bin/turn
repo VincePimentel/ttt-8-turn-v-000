@@ -8,4 +8,10 @@ puts "Welcome to Tic Tac Toe!"
 
 display_board(board)
 
+puts "Pick a number 1-9:"
+
+input = gets.strip
+
+index = input_to_index(input)
+
 turn(board)
