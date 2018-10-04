@@ -31,7 +31,7 @@ def move(array, index, character = "X")
   return array
 end
 
-def turn(array, index)
+def turn(array)
   puts "Please enter 1-9:"
 
   input = gets.strip
