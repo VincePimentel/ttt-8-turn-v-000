@@ -26,11 +26,23 @@ def position_taken?(array, index)
   end
 end
 
-def move(array, index, character)
+def move(array, index, character = "X")
   array[index] = character
   return array
 end
 
 def turn(board)
   puts "Please enter 1-9:"
+
+  input = gets.strip
+
+  index = input_to_index(input)
+
+  if valid_move? == true
+    move(board, index)
+
+    display_board(board)
+  else
+    turn(board
+    end)
 end
